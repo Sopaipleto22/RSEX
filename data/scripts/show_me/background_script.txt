@@ -1889,10 +1889,11 @@ declare_counter capua_rebellion6
 monitor_event CharacterTurnEnd Trait Capua_Rebellion > 0
 and FactionLeaderTrait Capua_Rebellion < 7
 and I_TurnNumber < 10
-
-set_counter capua_army 1
-if RandomPercent < 50
+if I_localfaction romans_brutii 
+	set_counter capua_army 1
+	if RandomPercent < 50
 		set_counter capua_army 2
+		console_command diplomatic_stance thrace carthage allied
 end_if
 
 if I_CompareCounter capua_army = 1
