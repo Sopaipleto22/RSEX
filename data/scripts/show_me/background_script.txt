@@ -1889,11 +1889,12 @@ declare_counter capua_rebellion6
 monitor_event CharacterTurnEnd Trait Capua_Rebellion > 0
 and FactionLeaderTrait Capua_Rebellion < 7
 and I_TurnNumber < 10
-if I_localfaction romans_brutii 
-	set_counter capua_army 1
-	if RandomPercent < 50
+and FactionTurnType romans_brutii
+and I_LocalFaction romans_brutii
+
+set_counter capua_army 1
+if RandomPercent < 50
 		set_counter capua_army 2
-		console_command diplomatic_stance thrace carthage allied
 end_if
 
 if I_CompareCounter capua_army = 1
@@ -1980,6 +1981,7 @@ end_monitor
 
 monitor_event CharacterTurnEnd Trait Capua_Rebellion = 2
 and I_TurnNumber < 10
+and I_LocalFaction romans_brutii
 console_command control thrace
 		console_command capture_settlement Capua
 		console_command create_unit Capua "samnite pedites extraordinarii" 2 1 1 1
@@ -2025,6 +2027,7 @@ end_monitor
 
 monitor_event CharacterTurnEnd Trait Capua_Rebellion = 4
 and I_TurnNumber < 10
+and I_LocalFaction romans_brutii
 console_command control thrace
 		console_command capture_settlement Capua
 		console_command create_unit Capua "greek slinger" 1 1 1
@@ -2046,6 +2049,7 @@ end_monitor
 
 monitor_event CharacterTurnEnd Trait Capua_Rebellion = 5
 and I_TurnNumber < 10
+and I_LocalFaction romans_brutii
 console_command control thrace
 		console_command capture_settlement Capua
 		console_command create_unit Capua "greek slinger" 1 1 1
@@ -2069,6 +2073,7 @@ end_monitor
 
 monitor_event CharacterTurnEnd Trait Capua_Rebellion = 6
 and I_TurnNumber < 10
+and I_LocalFaction romans_brutii
 console_command control thrace
 		console_command capture_settlement Capua
 		console_command create_unit Capua "samnite pedites extraordinarii" 2 1 1 1
