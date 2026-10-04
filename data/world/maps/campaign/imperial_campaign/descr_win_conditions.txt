@@ -1,0 +1,119 @@
+romans_julii
+hold_regions Caledonia Brigantimrog Dematomrog Trinovantimrog Belgicnos Bellovacilanda Atrebatibrogi Nervicoranda Remicoranda Aulercia Venetibanna Pictonibrog Uidu_Bituriges Aedulanda Sequanilanda Heruskozwaritha Chaucibrog Thutonlandaz Kimbrimairia
+take_regions 50
+short_campaign outlive_factions
+germans gauls
+
+romans_brutii 
+hold_regions Latium
+take_regions 130
+short_campaign outlive_factions
+gauls macedon
+
+romans_scipii
+hold_regions Gaia_Thynon Ano_Thraike Donogetia Getia_Superior Tyragetia Skythia Taurike Chersonessos_Herakleias Kimmerikon Getia_Inferior
+take_regions 50
+short_campaign outlive_factions
+dacia scythia
+
+boii
+hold_regions Boihaemum Lugibrog Walkala_Markamannoz Hattozwaritha Noricum Pannonia_Superior Pannonia_Inferior Cotinilanda Terrae_Iazygorum Illyria
+take_regions 50
+short_campaign outlive_factions
+germans dacia
+
+macedon
+hold_regions Lakonia Elis Argolis Achaia Attike Argolis Boiotia Aitolia Euboia Thessalia Epeiros Illyricum Ano_Makedonia Makedonia Chalkidike Parastrymonis Paionia Thraike Propontis Thraikike_Chersonesos Gaia_Thynon Triballia Ano_Thraike Bithynia Mysia Troas
+take_regions 80
+short_campaign outlive_factions
+greek_cities numidia
+
+egypt
+hold_regions Kyrenaike_Esperia Anatolike_Kyrenaike Marmarike Dodekaschoinos Boiotia Heptanomis Delta_tou_Neilou Delta_Anatolikon Sina Petraia_Arabia Nabataia_Arabia Ioudaia Koile_Syria Phoenike Seleukis Kyrhessike Kilikia Pamphylia Kypros Lykia Rhodos Caria Ionia Thraikike_Chersonesos 
+take_regions 80
+short_campaign outlive_factions
+seleucid parthia
+
+seleucid
+hold_regions Hyrkania Parthyene Tahiene Persia_Mikre Persia_Hypertera Elymais Mesene Babylonia Susiane Adiabene Parapotamia Kyrhessike Mygdonia Gordyene Media Mikre_Media Choarene Atropatene Seleukis Koile_Syria Palmyra Phoenike Ioudaia Gaza Nabataia_Arabia Petraia_Arabia Sina Delta_Anatolikon Kypros Kilikia Pamphylia Ionia Lydia Mysia Troas Phrygia Caria Bithynia Galatilanda Pontos_Paraktios Kolchis Mikre_Armenia Kommagene Paphlagonia_Hellenike Paphlagonia Pontos Pisidia Iberia Albania Armenia_Hypertera Armenia Sophene 
+take_regions 100
+short_campaign outlive_factions
+egypt parthia
+
+carthage 
+hold_regions Tripolitania Byzacium_Africanus Byzacium Zeugitana Terrae_Massyli Numidia Mauretania_Massaesili Mauretania_Tingitana Gallaecia Asturia Cantabria Celtiberia Ceretania Beribracia Carpetania Vettones Lusitania Tartesania Bastetania Turdetania Baliares Textosagibrog Saluvibrogi Liguria Latium Etruria Corsica Sardinia Sicilia_Graecus Sicilia_Medius Sicilia_Poenicum Sicilia_Messina Bruttium
+take_regions 80
+short_campaign outlive_factions
+romans_brutii spain
+
+parthia
+hold_regions Chorasmia Terrae_Dahae Hyrkania Parthyene Tahiene Choarene Mikre_Media Media Elymais Parapotamia Persia_Hypertera Babylonia Mesene Persia_Mikre Elymais Gordyene Adiabene Atropatene
+take_regions 60
+short_campaign outlive_factions
+seleucid armenia
+
+pontus
+hold_regions Skythia Taurike Chersonessos_Herakleias Kimmerikon Sindike Pontos_Paraktios Kolchis Mikre_Armenia Kommagene Paphlagonia_Hellenike Paphlagonia Pontos
+take_regions 50
+short_campaign outlive_factions
+numidia armenia
+
+gauls
+hold_regions Gallaecia Asturia Cantabria Celtiberia Ceretania Textosagibrog Nitobrogi Arvernobrog Saluvibrogi Liguria Insubrilanda Venetia Taurini_Clounia Boclounia Noricum Volcabrog Sequanilanda Rhaetia Helveticoranda Uidi_Segusiavi Remicoranda Bellovacilanda Aedulanda Aulercia Venetibanna Uidu_Bituriges Pictonibrog
+take_regions 60
+short_campaign outlive_factions
+romans_julii spain
+
+germans
+hold_regions Kimbrimairia Thutonlandaz Scandia Chaucibrog Heruskozwaritha Suebithurpaz Terrae_Rugii Lugibrog Walkala_Markamannoz Volcabrog Sequanilanda Nervicoranda Terrae_Venedae Boihaemum Hattozwaritha Latium Etruria Liguria Uidi_Segusiavi Aedulanda Taurini_Clounia Helveticoranda Rhaetia Noricum Remicoranda 
+take_regions 50
+short_campaign outlive_factions
+romans_julii boii
+
+britons
+hold_regions Attike
+take_regions 80
+short_campaign outlive_factions
+macedon greek_cities
+
+armenia
+hold_regions Kolchis Iberia Albania Atropatene Armenia_Hypertera Mikre_Armenia Kommagene Armenia Mikre_Media Media Gordyene Sophene Hyrkania
+take_regions 50
+short_campaign outlive_factions
+seleucid pontus
+
+dacia
+hold_regions Gaia_Thynon Ano_Thraike Triballia Skordisobrogi Terrae_Iazygorum Dacia Pannonia_Inferior Cotinilanda Coestobocia_Transmontana Terrae_Bastarnae Getia_Superior Paionia Thraike
+take_regions 50
+short_campaign outlive_factions
+macedon boii
+
+greek_cities
+hold_regions Lakonia Elis Argolis Achaia Attike Boiotia Aitolia Euboia Krete Rhodos
+take_regions 50
+short_campaign outlive_factions
+macedon romans_brutii
+
+numidia
+hold_regions Ionia Lydia Mysia Troas Phrygia Caria Bithynia Propontis Thraikike_Chersonesos Euboia
+take_regions 75
+short_campaign outlive_factions
+macedon pontus
+
+scythia
+hold_regions Hyrkania Volcabrog Kimmerikon Terrae_Alanni Donogetia Noricum Propontis
+take_regions 50
+short_campaign outlive_factions
+romans_scipii pontus
+
+spain
+hold_regions Gallaecia Asturia Cantabria Celtiberia Ceretania Beribracia Carpetania Vettones Lusitania Tartesania Bastetania Turdetania Mauretania_Tingitana Baliares
+take_regions 50
+short_campaign outlive_factions
+carthage gauls
+
+thrace
+hold_regions Dacia Terrae_Careotae Chorasmia Mysia Attike Propontis Latium
+take_regions 199
+short_campaign outlive_factions
+spain scythia
